@@ -1,0 +1,194 @@
+main {
+display: flex;
+}
+
+.image {
+    height:0px;
+    width: 1000px;
+    position: flex;
+}
+
+.konten
+{   min-height: 550px;
+	text-align : center;
+    height: auto;
+    background: aliceblue;
+	width: 80%;
+    margin-bottom: 30px;
+}
+
+.newtext
+{
+	font-size: 16px;
+	color: black;
+	font-family: geneva;
+	text-decoration: none;
+}
+
+.thumbnail {
+    background-color: gainsboro;
+    text-align: center;
+    padding	: 5px;
+    width: 165.5px;
+    margin: 6px;
+	float: left;
+    border: 0;
+    height: 350px;
+}
+
+.thumbnail img { height: 280px;
+    width: 100%;
+}
+
+.logo { 
+    position: relative;
+    min-height: 210px;
+    padding-top: 5px;
+}
+div.logo ul li .active {
+  background-color: cadetblue;
+}
+.logo {
+    width: 100%;
+    height: auto;
+    background: teal;
+    text-align: center;
+    font-family: "Arial";
+    color: #fff;
+}
+
+div.logo ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+div.logo li {
+  float: left;
+}
+div.logo li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.sidebar {
+    float: right;
+    height: auto;
+	width: auto;
+	overflow: visible;
+    position: relative;
+}
+
+.sidebar{
+	background: lightsteelblue;
+	float: left;
+	height: auto;
+	width: 20%;
+	font-size: 18px;
+    text-decoration:none;
+	text-align: center;
+    font-family: monospace;
+	padding-top: 20px;
+    margin-bottom: 30px;
+    padding-right: 5px;
+	padding-left: 5px;
+}
+
+.footer{
+	width: 100%;
+    background: darkcyan;
+    text-align: center;
+    padding: 15px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.padding_this{}
+
+.sidebar2 {
+    background:darkslateblue;
+    height: auto;
+	width: auto;
+    float: right;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width:768px){
+    .menu{
+display: none;}
+    .image {
+    height: 280px;
+    width: 1200px;
+    position: static;
+}
+    .menu_mobile{
+        top: 20px;
+        display: inline block;
+        padding-bottom: 60px;
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+        float: center;
+        background-color: #333;
+        font: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    div.menu_mobile ul {
+        display: show;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        float: none;
+        background-color: white;
+    }
+    div.menu_mobile li {
+        float: left;
+    }
+    div.menu_mobile li a {
+        display: list-item;
+        color: white;
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+        text-decoration: none;
+    }
+    
+    div.menu_mobile li a:hover:not(.active){
+        background-color: #111;
+        
+    }
+    .sidebar{
+        height: 1050px;
+        width: 200px;
+    }
+    .sidebar2{
+        display: none;
+    }
+    
+    .konten{
+        width: 100%;
+    }
+}
+
+div.sidebar ul {
+  list-style-type: none;
+  padding: 0; margin: 0;
+  width: 200px;
+  background-color: lightsteelblue;
+}
+div.sidebar li a {
+  display: block;
+  color: #000;
+  padding: 8px 10px;
+  text-decoration: none;
+}
